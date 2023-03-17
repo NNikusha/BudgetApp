@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    margin-top: 20px;
+    width: 70vw;
+    height: 70vh;
+    background-color: rgb(193, 198, 223);
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 15px;
+  }
+  .datas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: scroll;
+    gap: 20px;
+    width: 70vw;
+    height: 100vh;
+    padding-left: 16px;
+    padding-top: 25px;
+  }
+  .removeField{
+    display: flex;
+    gap: 40px;
+  }
+  .downData {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 25px;
+  }
+  

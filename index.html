@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form id="form">
+      <div class="info">
+        <label for="date">Date</label>
+        <input type="date" id="date" />
+        <label for="category">Category</label>
+        <select name="category" id="category">
+          <option value="">All</option>
+          <option value="salary">salary</option>
+          <option value="invoice">invoice</option>
+          <option value="gym">gym</option>
+          <option value="shopping">shopping</option>
+          <option value="family">family</option>
+          <option value="other">other</option>
+        </select>
+        <label for="min">Min</label>
+        <input type="number" name="min" id="min" />
+        <label for="max">Max</label>
+        <input type="number" name="max" id="max" />
+        <button>Filter</button>
+        <a class="addExpense" href="./form.html">Add Expense</a>
+      </div>
+      <div class="datas"></div>
+      <div class="downData">
+        <p class="totalNum"></p>
+        <p class="difference"></p>
+        <p class="totalExpense"></p>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
